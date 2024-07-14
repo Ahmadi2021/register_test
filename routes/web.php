@@ -19,6 +19,4 @@ Route::get('/', function () {
 })->middleware('auth');
 
 Auth::routes();
-// Route::get('/registerTo', [App\Http\Controllers\Auth\RegisterController::class, 'showRegistrationForm']);
-// Route::get('/loginTo', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home')->middleware('auth');

@@ -1,5 +1,4 @@
 @extends('layouts.app')
-
 @section('content')
 <section class="h-100 h-custom" style="background-color: #8fc4b7;">
     <div class="container py-5 h-100">
